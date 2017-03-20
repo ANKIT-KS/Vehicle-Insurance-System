@@ -1,12 +1,40 @@
 
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html >
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
 <title>Home</title>
 <style>
+
+
+a:link, a:visited {
+    
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: grey;
+    text-align: center;
+}
+
+h2
+		{
+		color: white;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		}
+		body{
+		background-image: url("car1.jpg");
+		background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+		}
 div.ex {
 	text-align: right width:300px;
 	padding: 10px;
@@ -18,13 +46,13 @@ div.ex {
 <body>
 	<a href="home.jsp" id="admin">Home</a>&nbsp;&nbsp;
 	<h2>Welcome To Vehicle Insurance System !!!</h2>
-	<hr>
-		<a href="registration.jsp" id="admin">Register</a>&nbsp;&nbsp;
+	<div>
+		<h2><a href="registration.jsp" id="admin">Register</a></h2>&nbsp;&nbsp;
 		
-		<a href="LoginPage.jsp" id="user">Login</a>&nbsp;&nbsp;
+		<h2><a href="LoginPage.jsp" id="user">Login</a></h2>&nbsp;&nbsp;
 		
 
-	<hr>
+	</div>
 	
 	
 </body>

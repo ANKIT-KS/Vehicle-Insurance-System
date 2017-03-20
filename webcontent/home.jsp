@@ -1,12 +1,38 @@
 
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="test.css">
 <title>Home</title>
 <style>
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+		h2
+		{
+		color: grey;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		
+		}
+
+
+
+
+
+
+
 div.ex {
 	text-align: right width:300px;
 	padding: 10px;
@@ -16,8 +42,18 @@ div.ex {
 </style>
 </head>
 <body>
+
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="videoframe.jpg" class="fullscreen-bg__video">
+        
+        <source src="1.mp4" type="video/mp4">
+        
+    </video>
+</div>
+
 	
-	<hr>
+	<div>
 		<a href="LoginPage.jsp" id="admin">ADMIN</a>&nbsp;&nbsp;
 		
 		<a href="user.jsp" id="user">USER</a>&nbsp;&nbsp;
@@ -25,7 +61,7 @@ div.ex {
 		<a href="about.jsp" id="aboutus">About Us</a>&nbsp;&nbsp;
 		
 		<a href="contact.jsp" id="contactus">Contact Us</a>&nbsp;&nbsp;
-	<hr>
+	</div>
 	
 	<h2>Welcome To Vehicle Insurance System !!!</h2>
 </body>

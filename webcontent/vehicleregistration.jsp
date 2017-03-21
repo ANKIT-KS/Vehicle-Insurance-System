@@ -67,7 +67,7 @@ a:hover, a:active {
 		</style>
 <body>
 <a href="home.jsp" id="admin">Home</a>&nbsp;&nbsp;
-	<h1>Vehicle Registration</h1>
+	<h2>Vehicle Registration</h2>
 	<div class="ex">
 		<form action="VehicleRegistrationServlet" method="post">
 		
@@ -124,11 +124,11 @@ a:hover, a:active {
 				
 				<tr>
 					<td>Engine Number</td>
-					<td><input type="number" name="engine" /></td>
+					<td><input type="text" required name="engine" /></td>
 				</tr>
 				<tr>
 					<td>Year of Make</td>
-					<td><input type="year" name="yom" maxlength="4"/></td>
+					<td><input type="year" required name="yom" maxlength="4"/></td>
 				</tr>
 					<tr>
 <td style="text-align: left;">Registering Location</td>
@@ -139,15 +139,15 @@ a:hover, a:active {
 </td>
 </tr>
 					<td>Price</td>
-					<td><input type="number" name="price" /></td>
+					<td><input type="text" required name="price" /></td>
 				</tr>
 				<tr>
 					<td>Date of Purchase</td>
-					<td><input type="text" name="dop" placeholder="dd-mm-yyyy" /></td>
+					<td><input type="text" required name="dop" placeholder="yyyy-mm-dd" /></td>
 				</tr>
 			</table>
 			
-			<input type="submit" value="register" />
+			<input type="submit"  class="button button2" value="register"   />
 		</form>
 	</div>
 </body>

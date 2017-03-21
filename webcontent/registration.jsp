@@ -65,7 +65,7 @@ a:hover, a:active {
 		</style>
 <body>
 <a href="home.jsp" id="admin">Home</a>&nbsp;&nbsp;
-	<h1>User Registration</h1>
+	<h2>User Registration</h2>
 	<div class="ex">
 		<form action="RegistrationServlet" method="post">
 			<table style="with: 50%">
@@ -138,12 +138,12 @@ a:hover, a:active {
 				</tr>
 				<tr>
 					<td>Date of Birth</td>
-					<td><input type="text" required name="dob" placeholder="dd-mm-yyyy" /></td>
+					<td><input type="text" required name="dob" placeholder="yyyy-mm-dd" /></td>
 				</tr>
 			</table>
 			
-			<input type="submit" value="register" />
-			<input type="reset" />
+			<input type="submit" class="button button2" value="register" />
+			<input type="reset" class="button button2"/>
 		</form>
 	</div>
 </body>
